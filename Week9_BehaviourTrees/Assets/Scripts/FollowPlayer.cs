@@ -23,7 +23,7 @@ public class FollowPlayer : MonoBehaviour
     {
         if(player != null)
         {
-            transform.position = player.transform.position + new Vector3(0, 5, -20);
+            transform.position = player.transform.position + new Vector3(0, 6, -20);
         }
     }
 }
